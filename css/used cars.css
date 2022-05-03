@@ -1,0 +1,193 @@
+:root{
+    --purple: #601cfc;
+    --black: #000016;
+    --light-blue: #3a6cf4;
+    --border: .1rem solid rgba(0,0,0,.1);
+}
+
+body
+{
+background:#eee;
+
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    
+}
+
+
+.navbar{
+width:100%;
+height:100px;
+background-color:#281a2e;
+position:fixed;
+z-index:1500;
+box-shadow: 10px 8px 7px 0px rgb(0 0 0 / 10%);
+}
+
+.h{
+	font-size:35px;
+	margin-left:40px;
+	font-family:bigcaslon;
+	padding-top:31px;
+	float:left;
+	
+}
+span{
+color:#ff9308;
+font-family:arial;
+font-weight: bold;
+	
+}
+.navbar ul{
+	text-align:center;
+	margin-left:401px;
+}
+
+.navbar ul li{
+ margin:43px;
+display:inline-block;	
+float:left;
+list-style: none;
+font-size:17px;
+}
+.navbar ul li:hover{
+transition:1s;
+width:85px;
+background:#fd9a3c;
+border-radius:20px;
+box-shadow: 10px 8px 7px 0px rgb(0 0 0 / 10%);
+
+}
+.navbar ul a{
+text-decoration: none;
+color:#fff;
+
+}
+
+.form{
+position:absolute;
+right:20px;
+
+}
+
+.navbar .input1{
+	
+    font-family:monospace;
+    width: 82px;
+    margin-left: 10px;
+    font-size: 13px;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 41px;
+    height: 25px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    
+}
+.navbar .input2{
+	
+    font-family:monospace;
+    width: 82px;
+    margin-left: 10px;
+    font-size: 13px;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 41px;
+    height: 25px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.navbar .input1:hover
+{
+ background-color:#281a2e; 
+  color:#fff;
+  border: 2px solid#281a2e; 
+
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    font-size: 4.5rem;
+    color: var(--black);
+    margin-top: 70px;
+}
+
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background-color: var(--light-blue);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.used_vehicles .vehicles-slider{
+    padding-bottom: 5rem;
+}
+
+.used_vehicles .vehicles-slider .box{
+    text-align: center;
+    width: 100%;
+}
+
+.used_vehicles .vehicles-slider .box img {
+    width: 75rem;
+    border-radius: 2rem;
+    border: var(--border);
+}
+
+.used_vehicles .vehicles-slider .box .content{
+    padding: 1rem;
+}
+
+.used_vehicles .vehicles-slider .box .content h3{
+    font-size: 2.5rem;
+    color: var(--black);
+} 
+
+.used_vehicles .vehicles-slider .box .content .price {
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+    font-weight: bolder;
+}
+
+.used_vehicles .vehicles-slider .box .content .price span{
+    font-size: 1.7rem;
+    color: var(--purple);
+    font-weight: normal;
+}
+
+.used_vehicles .vehicles-slider .box .content p{
+    font-size: 1.6rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    border-top: var(--border);
+    color: var(--light-blue);
+}
+
+.used_vehicles .vehicles-slider .box .content p span{
+    color: var(--purple);
+    font-size: .8rem;
+    padding: 0 .5rem;
+}

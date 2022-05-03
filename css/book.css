@@ -1,0 +1,170 @@
+.navbar{
+    width:100%;
+    height:100px;
+    background-color:#281a2e;
+    z-index:1500;
+    box-shadow: 10px 8px 7px 0px rgb(0 0 0 / 10%);
+    }
+    
+    .h{
+        font-size:35px;
+        margin-left:40px;
+        font-family:bigcaslon;
+        float:left;
+        
+    }
+    span{
+    color:#ff9308;
+    font-family:arial;
+    font-weight: bold;
+        
+    }
+    .navbar ul{
+        text-align:center;
+        margin-left:401px;
+    }
+    
+    .navbar ul li{
+    margin:43px;
+    display:inline-block;	
+    float:left;
+    list-style: none;
+    font-size: 17px;
+    }
+    .navbar ul li:hover{
+    transition:1s;
+    width:85px;
+    background:#fd9a3c;
+    border-radius:20px;
+    box-shadow: 10px 8px 7px 0px rgb(0 0 0 / 10%);
+    
+    }
+    .navbar ul a{
+    text-decoration: none;
+    color:#fff;
+    
+    }
+    
+h1{
+    color: white;
+}
+label{
+    color: white;
+}
+form{
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    left: 35%;
+    transform: translate(-50,-50);
+    width: 400px;
+    height: 500px;
+    background: rgb(10, 0, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 0px 0px 0px -277px;
+}
+input[type="text"]{
+    outline: none;
+    border: none;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #101010;
+    border-radius: 20px;
+
+}
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+    margin-left: 10px;
+}
+.logo h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 32px;
+    
+}
+.nav{
+    float: right;
+    height: 100%;
+
+}
+.nav a{
+    height: 65%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+
+}
+.nav:hover{
+    color: tomato;
+}
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+    
+
+}
+.nav a li:hover{
+    color: rgb(9, 70, 94);
+}
+.nav a:hover{
+    color: rgb(82, 170, 241);
+}
+a:link{
+    text-decoration: none;
+}
+body{
+    background-image: url(https://www.google.com/imgres?imgurl=https://read.os-cdn.com/wp-content/uploads/2019/07/%25D8%25A3%25D8%25B3%25D8%25A7%25D8%25B3%25D9%258A%25D8%25A7%25D8%25AA-%25D8%25AE%25D8%25AF%25D9%2585%25D8%25A9-%25D8%25A7%25D9%2584%25D8%25B9%25D9%2585%25D9%2584%25D8%25A7%25D8%25A1.jpg&imgrefurl=https://read.opensooq.com/%25D8%25A3%25D8%25B3%25D8%25A7%25D8%25B3%25D9%258A%25D8%25A7%25D8%25AA-%25D8%25AE%25D8%25AF%25D9%2585%25D8%25A9-%25D8%25A7%25D9%2584%25D8%25B9%25D9%2585%25D9%2584%25D8%25A7%25D8%25A1/&tbnid=OKm56lG3e1CqpM&vet=1&docid=yXaZxUwQZJV5NM&w=938&h=500&hl=ar&source=sh/x/im);
+    background-size: cover;
+}
+#sub{
+    margin-right: 130px;
+    /* border-bottom: 50px; */
+    border-radius: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 255);
+}
+#sub:hover{
+    background-color: darkblue;
+    color: rgb(7, 0, 0);
+}
+#res:hover{
+    background-color: darkblue;
+    color: rgb(7, 0, 0);
+}
+#res{
+    margin-left: 40px;
+    /* border-bottom: 50px; */
+    border-radius: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0,);
+}
+
+.py{
+    margin: -227px 0px 0px -639px;
+}

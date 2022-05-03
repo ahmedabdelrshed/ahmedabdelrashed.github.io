@@ -1,0 +1,195 @@
+/* * {
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #182e52;
+    width: 1060px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0px 5px 10px 2px #2f365a;
+    position: fixed;
+    margin-top: -15px;
+}
+
+.title {
+    color: #ffc800;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.one {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 25%;
+    margin-right: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+img {
+    width: 1060px;
+    height: 550px;
+}
+
+h1 {
+ text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    color: #11114c;
+}
+
+form {
+    padding-left: 51px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+input {
+    font-size: 15px;
+    outline: 1px solid blue;
+}
+
+input:hover {
+    outline: 2px solid rgb(31, 114, 110);
+}
+
+button {
+    color: #18523a;
+    font-size: 15px;
+    padding: 5px;
+    outline: 2px solid black;
+}
+
+button:hover {
+    color: rgb(86, 42, 187);
+    outline: 2px solid rgb(86, 42, 187);
+    border-radius: 30%;
+    transition-duration: .3s;
+} */
+
+
+.header {
+    min-height: 100vh;
+    background: #491f97;
+    padding-bottom: 100px;
+    padding-top: 180px;
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 3px;
+    background: rgb(250, 249, 249);
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    width: 10%;
+    display: table-cell;
+    padding: 60px 48px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    height: 80px;
+
+}
+
+.main-card {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.card-left {
+    background: url("../images/car.jpg");
+    width: 29.1%;
+    display: block;
+    padding-top: 300px;
+    background-position: left center;
+    height: 170px;
+}
+
+.card-body {
+    /* display: table-cell; */
+    padding: 3px 273px;
+    padding-bottom: 331px;
+    /* float: right; */
+    margin-top: -470px;
+    padding-right: 81px;
+    margin-left: 264px;
+    padding-left: 48px;
+    padding-bottom: 47px;
+}
+
+
+/* display: table-cell; */
+/* padding: 3px 273px;
+    padding-bottom: 331px; */
+/* float: right; */
+/* margin-left: 266px;
+    margin-top: -470px; */
+/* padding-right: 53px; */
+/* background-color: aqua;
+    padding-left: 48px; */
+
+h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.input--style-2 {
+    padding: 9px 0;
+    /* color: #a79b9b; */
+    font-size: 16px;
+    font-weight: 500;
+    border: 0px solid transparent;
+    width: 250px;
+    background-color: transparent;
+}
+
+.input--style-2:hover {
+    border: 0px solid transparent;
+    outline: 0px solid transparent;
+}
+
+.input--style-2:focus {
+    border: 0px solid transparent;
+    outline: 0px solid transparent;
+}
+
+.p-t-30 {
+    padding-top: 30px;
+}
+
+.signup-btn {
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    background-color: #343485;
+    border: 0px solid transparent;
+    font-weight: bold;
+    width: 471px;
+}
+
+.login {
+    margin-top: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}

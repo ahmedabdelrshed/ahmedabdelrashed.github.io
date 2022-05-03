@@ -1,0 +1,174 @@
+body{
+    background-color: #eee;
+   font-family: 'poppins',sans-serif;
+}
+.navbar{
+width:100%;
+height:100px;
+background-color:#281a2e;
+z-index:1500;
+box-shadow: 10px 8px 7px 0px rgb(0 0 0 / 10%);
+}
+
+.h{
+	font-size:35px;
+	margin-left:40px;
+	font-family:bigcaslon;
+	float:left;
+	
+}
+span{
+color:#ff9308;
+font-family:arial;
+font-weight: bold;
+	
+}
+.navbar ul{
+	text-align:center;
+	margin-left:401px;
+}
+
+.navbar ul li{
+margin:43px;
+display:inline-block;	
+float:left;
+list-style: none;
+font-size: 17px;
+}
+.navbar ul li:hover{
+transition:1s;
+width:85px;
+background:#fd9a3c;
+border-radius:20px;
+box-shadow: 10px 8px 7px 0px rgb(0 0 0 / 10%);
+
+}
+.navbar ul a{
+text-decoration: none;
+color:#fff;
+
+}
+
+
+
+    a:link{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    a:active{
+       text-decoration: underline;
+    } 
+.c1{
+    margin-left: 49px;
+}
+    .c2{
+    margin: -292px 0px 0px 501px;
+}   
+.c3{
+    margin: -292px 0px 0px 937px;
+}  
+.c4{
+    margin: 18px 0px 0px 45px;
+}  
+.c5{
+    margin: -294px 0px 0px 458px;
+}  
+.c6{
+    margin: -293px 0px 0px 947px;
+}  
+.c7{
+    margin-left: 40px;
+}
+.hs{
+    margin: 61px 0px 0px 0px;
+    font-size: 28px;
+ }
+ .hs2{
+    margin: 61px 0px 0px 0px;
+    font-size: 28px;
+ }
+ .c8{
+     
+    margin: -289px 0px 0px 451px;
+}
+.hs3{
+    margin: 36px 0px 0px 4px;
+    font-size: 28px;
+}
+.hs4{
+    color:#ff9308;
+}
+.p1{
+    font-size: 21px;
+    color:#ff9308;
+}
+.p2{
+    font-size: 20px;
+}
+.c9{
+    margin: -316px 0px 0px 953px;
+}
+  img:hover{
+     transform: scale(1.1);
+     transition: 1s;
+ }
+
+
+.footer ul{
+    list-style: none;
+}
+
+.footer-4 .social-links a:hover{
+    color: #c4bebe;
+}
+.footer ul :hover{
+    color: #c4bebe;
+}
+.footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(27, 23, 23);
+    height: 400px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.row{
+    display: flex;
+    line-height: 1.6;
+    max-width: 1300px;
+    padding: 50px;
+    padding-left: 80px;
+}
+h4{
+    display: block;
+    color: rgb(169, 185, 184);
+    padding: 20px;
+    padding-left: 38px;
+    font-size: 22px;
+}
+
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4{
+    width: 30%;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.8;
+}
+.social-links a{
+    display: block;
+    padding-left: 40px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(114, 107, 107);
+   
+}
+.social-links a{
+    text-decoration: none;
+    color: rgb(114, 107, 107);
+}
+
