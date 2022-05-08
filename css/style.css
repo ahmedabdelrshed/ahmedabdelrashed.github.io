@@ -132,6 +132,20 @@ animation-iteration-count:1;
 color:#fff;
 
 }
+.head3 input{
+width:150px;
+border:2px solid #fff;
+border-radius:20px;
+cursor:pointer;
+
+}
+.head3 input:hover
+{
+color:#fff;
+transition:1s;
+background:#281a2e;
+
+}
 .head3 p1
 {
 

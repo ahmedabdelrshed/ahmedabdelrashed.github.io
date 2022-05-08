@@ -168,3 +168,35 @@ body{
 .py{
     margin: -227px 0px 0px -639px;
 }
+
+
+.cl{
+
+    margin-top: 162px;
+    margin-left: 532px;
+    margin-bottom: 20px;
+   width:300px;
+text-align:center;
+}
+
+.cl input
+{
+border:2px solid #fff;
+width:200px;
+
+
+}
+.cl input:hover
+{
+background:black;
+color:#fff;
+
+
+}
+.par
+{
+
+margin-bottom:20px;
+font-size:35px;
+color:#fff;
+}

@@ -210,3 +210,18 @@ h4{
     text-decoration: none;
     color: rgb(114, 107, 107);
 }
+.heading input
+{
+border:2px solid #fff;
+width:200px;
+
+
+}
+.heading input:hover
+{
+background:black;
+color:#fff;
+
+
+
+}
